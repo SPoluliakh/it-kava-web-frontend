@@ -1,0 +1,62 @@
+{
+  "banner": {
+    "title": "IT KAVA",
+    "subtitle": "Your key to internet business",
+    "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam",
+    "orderServiceBtn": "Order a service"
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Don't waste your time, it's better to leave everything to us",
+    "text": "The success of your business is our task. Complex marketing services will help you attract new customers, improve your image and increase your profits",
+    "serviceItemList": {
+      "seo": "SEO",
+      "management": "Management",
+      "development": "Development",
+      "design": "Design"
+    }
+  },
+  "advantages": {
+    "title": "Advantages",
+    "subtitle": "Quality business is our main task",
+    "text": "We do not say that we are the best in everything - that is what our customers say",
+    "advantageTextList": [
+      "High quality work",
+      "Turnkey sites and services",
+      "Turnkey sites and services v2",
+      "Turnkey sites and services v3"
+    ]
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Each of our clients trusts us",
+    "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam",
+    "moreDetails": "More details",
+    "projectList": {
+      "project1": "online store 1",
+      "project2": "online store 2",
+      "project3": "online store 3",
+      "project4": "online store 4",
+      "project5": "online store 5"
+    }
+  },
+  "reviews": {
+    "title": "Reviews",
+    "text": "On behalf of our company, we thank the IT Kava team for the work done on our project.",
+    "author": {
+      "name": "Pellentesque",
+      "surname": "Dabaan",
+      "position": "CEO",
+      "company": "Fabucis"
+    }
+  },
+  "aboutUs": {
+    "logo": "IT KAVA",
+    "title": "Company",
+    "subtitle": "Don't waste your time, it's better to leave all the work to ",
+    "text": [
+      "WEB studio IT KAVA provides services in the field of Internet development. The IT KAVA team will always be happy to help you understand what is needed for the development of your online business.",
+      " We provide a wide range of services for the development of a new or modernization of an old website, promotion and promotion of your website in the network, support for your Internet resource and regular updates, you can also emphasize the individuality of your Company through web design."
+    ]
+  }
+}

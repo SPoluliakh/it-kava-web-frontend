@@ -1,0 +1,62 @@
+{
+  "banner": {
+    "title": "IT KAVA",
+    "subtitle": "Твій ключ від интернет бізнесу",
+    "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam",
+    "orderServiceBtn": "Замовити послугу"
+  },
+  "services": {
+    "title": "Послуги",
+    "subtitle": "Не витрачайти час дарма, краще залиште все на нас",
+    "text": "Успіх вашого бізнесу – наше завдання. Комплекс маркетингові послуги допоможуть вам залучити нових клієнтів, покращити імідж та збільшити прибуток",
+    "serviceItemList": {
+      "seo": "SEO",
+      "management": "Менеджмент",
+      "development": "Розробка",
+      "design": "Дизайн"
+    }
+  },
+  "advantages": {
+    "title": "Переваги",
+    "subtitle": "Якісний бізнес - наша головна задача",
+    "text": "Ми не кажемо, що ми найкращі в усьому - це кажуть наші клієнти",
+    "advantageTextList": [
+      "Висока якість роботи",
+      "Сайти та сервіси під ключ",
+      "Сайти та сервіси під ключ v2",
+      "Сайти та сервіси під ключ v3"
+    ]
+  },
+  "portfolio": {
+    "title": "Портфолио",
+    "subtitle": "Кожен наш клієнт довіряє нам",
+    "text": "Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Et netus et malesuada fames ac turpis. Ut pharetra sit amet aliquam id diam maecenas.",
+    "moreDetails": "Детальніше",
+    "projectList": {
+      "project1": "інтернет-магазин 1",
+      "project2": "інтернет-магазин 2",
+      "project3": "інтернет-магазин 3",
+      "project4": "інтернет-магазин 4",
+      "project5": "інтернет-магазин 5"
+    }
+  },
+  "reviews": {
+    "title": "Відгуки",
+    "text": "Від імені нашої компанії дякуюмо команді IT Kava за пророблену роботу над нашим проектом.",
+    "author": {
+      "name": "Pellentesque",
+      "surname": "Dabaan",
+      "position": "CEO",
+      "company": "Fabucis"
+    }
+  },
+  "aboutUs": {
+    "logo": "IT KAVA",
+    "title": "Компанія",
+    "subtitle": "Не Витрачайти час дарма, краще залиште всю роботу на ",
+    "text": [
+      "WEB студія IT KAVA надає послуги у сфері інтернет-розробок. Команда IT KAVA завжди буде рада допомогти зрозуміти,рібно для розвитку Вашого інтернет бізнесу.",
+      " Ми надаємо широкий комплекс послуг з розробки нового або модернізації старого сайту, розкрутці та просуванні сайту в мережі, підтримці Вашого інтернет-ресурсу та регулярні оновлення, так само можете підкреслити індивідуальність Вашої Компанії за допомогою веб-дизайну"
+    ]
+  }
+}

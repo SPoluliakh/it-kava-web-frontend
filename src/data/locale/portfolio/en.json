@@ -1,0 +1,17 @@
+{
+  "banner": {
+    "title": "IT KAVA",
+    "subtitle": "Your key to internet business",
+    "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam",
+    "orderServiceBtn": "Order a service"
+  },
+  "portfolio": {
+    "navigation": {
+      "Single page sites": "Single page sites",
+      "Corporate sites": "Corporate sites",
+      "Internet stores": "Internet stores",
+      "Web applications": "Web applications"
+    },
+    "showMoreBtn": "Load more"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "data": {
+    "aboutUs": {
+      "href": "/about"
+    },
+    "services": {
+      "href": "/services"
+    },
+    "portfolio": {
+      "href": "/portfolio"
+    },
+    "projects": {
+      "href": "/projects"
+    },
+    "contacts": {
+      "href": "/contacts"
+    }
+  },
+  "list": ["aboutUs", "services", "portfolio", "projects", "contacts"]
+}

@@ -1,0 +1,22 @@
+{
+  "data": {
+    "Single page sites": {
+      "href": "/single-page-sites"
+    },
+    "Corporate sites": {
+      "href": "/corporate-sites"
+    },
+    "Internet stores": {
+      "href": "/internet-stores"
+    },
+    "Web applications": {
+      "href": "/web-applications"
+    }
+  },
+  "list": [
+    "Single page sites",
+    "Corporate sites",
+    "Internet stores",
+    "Web applications"
+  ]
+}

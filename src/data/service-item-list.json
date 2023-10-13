@@ -1,0 +1,17 @@
+{
+  "data": {
+    "seo": {
+      "href": "/seo"
+    },
+    "management": {
+      "href": "/management"
+    },
+    "development": {
+      "href": "/development"
+    },
+    "design": {
+      "href": "/design"
+    }
+  },
+  "list": ["seo", "management", "development", "design"]
+}

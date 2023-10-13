@@ -1,0 +1,13 @@
+{
+  "header": {
+    "menu": {
+      "aboutUs": "Про нас",
+      "services": "Послуги",
+      "portfolio": "Портфоліо",
+      "projects": "Проекти",
+      "contacts": "Контакти"
+    },
+    "orderServiceBtn": "Замовити послугу"
+  },
+  "footer": {}
+}

@@ -1,0 +1,18 @@
+{
+  "banner": {
+    "title": "IT KAVA",
+    "subtitle": "Твій ключ від интернет бізнесу",
+    "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam",
+    "orderServiceBtn": "Замовити послугу"
+  },
+
+  "portfolio": {
+    "navigation": {
+      "Single page sites": "Односторінкові сайти",
+      "Corporate sites": "Корпоративниі сайти",
+      "Internet stores": "Интернет магазини",
+      "Web applications": "Веб застосунки"
+    },
+    "showMoreBtn": "Показати ще"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "banner": {
+    "title": "About",
+    "subtitle": "Describe what makes your company unique",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. "
+  },
+  "featureOne": {
+    "title": "Feature one",
+    "coloredSubtitle": ["About ", "IT KAVA"],
+    "text": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius faucibus massa sollicitudin amet augue. Nibh metus a semper purus mauris duis. Lorem eu neque, tristique quis duis. Nibh scelerisque ac adipiscing velit non nulla in amet pellentesque. Sit turpis pretium eget maecenas. Vestibulum dolor mattis consectetur eget commodo vitae.",
+      "Amet pellentesque sit pulvinar lorem mi a, euismod risus rhoncus. Elementum ullamcorper nec, habitasse vulputate. Eget dictum quis est sed egestas tellus, a lectus. Quam ullamcorper in fringilla arcu aliquet fames arcu.Lacinia eget faucibus urna, nam risus nec elementum cras porta. Sed elementum, sed dolor purus dolor dui. Ut dictum nulla pulvinar vulputate sit sagittis in eleifend dignissim. Natoque mauris cras molestie velit. Maecenas eget adipiscing quisque viverra lectus arcu, tincidunt ultrices pellentesque."
+    ]
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Don't waste your time, it's better to leave everything to us",
+    "list": {
+      "name1": {
+        "title": "Summary of event",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\nSuspendisse varius enim in eros elementum tristique."
+      },
+      "name2": {
+        "title": "Summary of event",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\nSuspendisse varius enim in eros elementum tristique."
+      },
+      "name3": {
+        "title": "Summary of event",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\nSuspendisse varius enim in eros elementum tristique."
+      },
+      "name4": {
+        "title": "Summary of event",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\nSuspendisse varius enim in eros elementum tristique."
+      },
+      "name5": {
+        "title": "Summary of event",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\nSuspendisse varius enim in eros elementum tristique."
+      }
+    }
+  },
+  "ourVision": {
+    "title": "Our vision",
+    "text": "Describe what your company is building towards in the future. This vision statement should serve the purpose of selling the dream of the company to hiring talent, investors and partners."
+  },
+  "achievements": {
+    "title": "Achievements",
+    "subtitle": "Describe what your company is building towards in the future. This vision statement should serve the purpose of selling the dream of the company to hiring talent, investors and partners.",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
+    "list": [
+      {
+        "value": "500+",
+        "head": "Projects completed"
+      },
+      {
+        "value": "200%",
+        "head": "Year on year growth"
+      },
+      {
+        "value": "$50m",
+        "head": "Funded"
+      },
+      {
+        "value": "10k",
+        "head": "Downloads"
+      }
+    ]
+  },
+  "trust": {
+    "title": "Trust",
+    "text": "Trusted by the world's best companies [social proof to build credibility]"
+  }
+}

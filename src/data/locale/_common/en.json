@@ -1,0 +1,13 @@
+{
+  "header": {
+    "menu": {
+      "aboutUs": "About us",
+      "services": "Services",
+      "portfolio": "Portfolio",
+      "projects": "Projects",
+      "contacts": "Contacts"
+    },
+    "orderServiceBtn": "Order service"
+  },
+  "footer": {}
+}
