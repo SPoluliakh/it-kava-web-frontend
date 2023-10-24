@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 import { useTheme } from '@mui/material';
-import { StyledLink } from '@/common/components';
+import { StyledLink } from '@/common/components/styled';
 
 interface Props {
   href: string;

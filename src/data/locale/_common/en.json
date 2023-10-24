@@ -4,10 +4,23 @@
       "aboutUs": "About us",
       "services": "Services",
       "portfolio": "Portfolio",
-      "projects": "Projects",
       "contacts": "Contacts"
     },
+
     "orderServiceBtn": "Order service"
   },
-  "footer": {}
+  "footer": {
+    "up": {
+      "linkOne": "link One",
+      "linkTwo": "link Two",
+      "linkThree": "link Three",
+      "linkFour": "link Four"
+    },
+    "down": {
+      "PrivacyPolicy": "Privacy Policy",
+      "TermsOfService": "Terms of Service",
+      "CookiesSettings": "Cookies Settings"
+    },
+    "common": "2023 Relume. All right reserved."
+  }
 }

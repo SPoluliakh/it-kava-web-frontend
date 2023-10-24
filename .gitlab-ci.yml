@@ -1,0 +1,25 @@
+image: node:latest
+
+cache:
+  paths:
+    - node_modules/
+
+stages:
+  - check-lint
+  - deploy
+
+check-lint:
+  stage: check-lint
+  script:
+    - yarn
+    - yarn lint
+    - yarn prettier
+
+deploy:
+  stage: deploy
+  rules:
+    - if: $CI_COMMIT_BRANCH == "develop"
+  tags:
+    - it-kava-runner
+  script:
+    - cd /var/www/it-kava && sh deploy.sh web

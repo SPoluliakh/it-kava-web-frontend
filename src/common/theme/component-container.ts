@@ -9,6 +9,11 @@ export const setComponentContainer = (theme: Theme) => {
           maxWidth: 360,
           paddingLeft: 16,
           paddingRight: 16,
+          [theme.breakpoints.up('xs1')]: {
+            maxWidth: 768,
+            paddingLeft: 16,
+            paddingRight: 16,
+          },
           [theme.breakpoints.up('sm')]: {
             maxWidth: 992,
             paddingLeft: 24,

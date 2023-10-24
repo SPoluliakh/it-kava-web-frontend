@@ -3,3 +3,4 @@ export * from './usePortfolioMenu';
 export * from './useTabsChange';
 export * from './useChangePortfolio';
 export * from './usePortfolioVariants';
+export * from './useSize';

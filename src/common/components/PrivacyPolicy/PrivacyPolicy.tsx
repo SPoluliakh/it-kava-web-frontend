@@ -8,7 +8,7 @@ interface Props {
 export const PrivacyPolicy = ({ text }: Props) => (
   <Typography component="span" variant="p4">
     {text[0]}{' '}
-    <Link href="#">
+    <Link href="/privacy-policy">
       <Typography
         variant="inherit"
         sx={{

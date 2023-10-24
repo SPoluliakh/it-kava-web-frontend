@@ -9,7 +9,7 @@ interface Props {
 export const Contacts = ({ sx }: Props) => {
   const dictionary = useSectionDictionary();
   return (
-    <Box sx={{ ...sx }}>
+    <Box sx={{ pb: '64px', ...sx }}>
       <Container sx={{ display: 'flex', flexDirection: 'column' }}>
         <Box sx={{ alignSelf: 'center', maxWidth: '450px', mb: 4 }}>
           <Typography
@@ -30,9 +30,9 @@ export const Contacts = ({ sx }: Props) => {
           </Typography>
         </Box>
         <Stack
-          direction={{ sm: 'row' }}
+          direction={{ xs1: 'row' }}
           gap={{ xs: 4, md: '138px' }}
-          sx={{ mx: { xs: 0, sm: 'auto' } }}
+          sx={{ mx: { xs: 0, xs1: 'auto' }, alignItems: 'center' }}
         >
           <ContactsForm />
           <ContactsList />

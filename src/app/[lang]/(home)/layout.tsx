@@ -43,7 +43,7 @@ export default async function RootLayout({
           >
             {children}
           </main>
-          <FooterFeature />
+          <FooterFeature dictionary={dictionary.footer} />
         </div>
       </body>
     </html>

@@ -9,7 +9,7 @@ interface Props {
 export const Portfolio = ({ dictionary }: Props) => (
   <Box
     sx={{
-      py: { xs: 1, sm: 3 },
+      py: { xs: 3, sm: 3 },
       backgroundColor: 'primary.c50',
     }}
   >
@@ -17,7 +17,7 @@ export const Portfolio = ({ dictionary }: Props) => (
       sx={{
         display: 'flex',
         flexDirection: { xs: 'column', sm: 'row' },
-        alignItems: 'center',
+        alignItems: { xs: 'center', xs1: 'flex-start', sm: 'center' },
       }}
     >
       <Box sx={{ maxWidth: '506px' }}>
@@ -35,7 +35,10 @@ export const Portfolio = ({ dictionary }: Props) => (
         <Typography variant="p3" component="p" color="secondary.c800" sx={{ mb: { xs: 3, sm: 6 } }}>
           {dictionary.text}
         </Typography>
-        <Button variant="contained" color="primary">
+        <Button
+          variant="contained"
+          sx={{ mb: { xs: '32px', sm: 0 }, width: { xs: '100%', xs1: '145px' } }}
+        >
           {dictionary.moreDetails}
         </Button>
       </Box>

@@ -7,7 +7,7 @@ export const setTypography = (theme: Theme) => {
     fontSize: '32px',
     lineHeight: '40px',
     fontWeight: 700,
-    [theme.breakpoints.up('sm')]: {
+    [theme.breakpoints.up('xs1')]: {
       fontSize: '40px',
       lineHeight: '48px',
     },

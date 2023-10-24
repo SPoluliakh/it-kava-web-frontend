@@ -51,12 +51,12 @@ const portfolioBanner: TGetSwiperOptions = theme => ({
     disableOnInteraction: true,
   },
   breakpoints: {
-    [`${theme.breakpoints.values.xs}`]: {
+    [`${theme.breakpoints.values.sm}`]: {
       slidesPerView: 1.5,
       spaceBetween: 1,
       slidesPerGroup: 1,
     },
-    [`${theme.breakpoints.values.sm}`]: {
+    [`${theme.breakpoints.values.md}`]: {
       slidesPerView: 2,
       spaceBetween: 16,
       slidesPerGroup: 1,
@@ -64,9 +64,32 @@ const portfolioBanner: TGetSwiperOptions = theme => ({
   },
 });
 
+const simple: TGetSwiperOptions = () => ({
+  modules: [Navigation, Pagination, Mousewheel, Keyboard, Autoplay],
+  slidesPerView: 1,
+  slidesPerGroup: 1,
+  cssMode: true,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+    dynamicBullets: true,
+    dynamicMainBullets: 3,
+  },
+  autoplay: {
+    delay: 400000,
+    disableOnInteraction: false,
+  },
+  spaceBetween: 24,
+  navigation: {
+    prevEl: '.swiper-button-next',
+    nextEl: '.swiper-button-prev',
+  },
+});
+
 const variants: Record<TSwiperOptionsVariant, TGetSwiperOptions> = {
   portfolio,
   portfolioBanner,
+  simple,
 };
 
 export const useSwiperOptions = (variant: TSwiperOptionsVariant) => {

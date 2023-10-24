@@ -15,7 +15,7 @@ interface Props {
 
 export const PortfolioTabsPanel = ({ portfolioMenu, value, handleChange, portfolio }: Props) => {
   const currentLocal = useLang();
-  const { isSmUp } = useMedia();
+  const { isXs1Up } = useMedia();
   return (
     <>
       <Tabs
@@ -48,7 +48,7 @@ export const PortfolioTabsPanel = ({ portfolioMenu, value, handleChange, portfol
           />
         ))}
       </Tabs>
-      <PortfolioInfo portfolio={portfolio} currentLocal={currentLocal} isSmUp={isSmUp} />
+      <PortfolioInfo portfolio={portfolio} currentLocal={currentLocal} isXs1Up={isXs1Up} />
     </>
   );
 };

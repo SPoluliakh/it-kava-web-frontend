@@ -24,7 +24,7 @@ export const Advantages = ({ dictionary }: Props) => {
         }}
       >
         <AdvantagesBackground />
-        <Box sx={{ maxWidth: '536px' }}>
+        <Box sx={{ maxWidth: { xs: '536px', xs1: '100%', sm: '536px' } }}>
           <Typography
             variant="h2"
             component="h2"
@@ -50,9 +50,23 @@ export const Advantages = ({ dictionary }: Props) => {
             {dictionary.text}
           </Typography>
 
-          <Stack gap={{ xs: 2.5, sm: 3 }}>
+          <Stack
+            gap={{ xs: 2.5, sm: 3 }}
+            sx={{
+              flexDirection: { xs: 'column', xs1: 'row', sm: 'column' },
+              justifyContent: 'space-between',
+            }}
+            flexWrap="wrap"
+          >
             {dictionary.advantageTextList.map(text => (
-              <Stack key={text} gap={2} direction="row">
+              <Stack
+                key={text}
+                gap={2}
+                direction="row"
+                sx={{
+                  width: { xs: '100%', xs1: '45%', sm: '100%' },
+                }}
+              >
                 <CheckCircleIcon sx={{ color: 'primary.c500' }} />
                 <Typography variant="p1" component="span" color="primary.c500">
                   {text}

@@ -28,7 +28,12 @@ export const NotFound = ({ dictionary }: Props) => {
           pt: { xs: '500px', sm: '710px' },
         }}
       >
-        <Button href="/" variant="contained" onClick={() => router.push('/')}>
+        <Button
+          href="/"
+          variant="contained"
+          onClick={() => router.push('/')}
+          sx={{ width: { xs: '100%', xs1: '138px' } }}
+        >
           {dictionary.buttonName}
         </Button>
       </Container>

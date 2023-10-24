@@ -5,6 +5,7 @@ import { TIconButtonVariant } from './interfaces';
 interface ExtProps {
   href?: string;
   variant?: TIconButtonVariant;
+  target?: string;
 }
 
 export const IconButton = ({

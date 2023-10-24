@@ -14,17 +14,21 @@ export const Reviews = ({ dictionary }: Props) => {
       <Box
         sx={{
           width: '100%',
-          py: { xs: 1, sm: 11 },
-          px: { xs: 1, sm: 11, md: 21.5 },
+          py: { xs: 2, sm: 11 },
+          px: { xs: 2, sm: 11, md: 21.5 },
           backgroundColor: 'primary.c50',
           borderRadius: 2,
           backgroundRepeat: 'no-repeat',
           backgroundSize: '259px 240px',
-          backgroundPosition: { sm: 'bottom 61px right 24px', md: 'bottom 61px right 112px' },
-          backgroundImage: { sm: 'url("/images/reviews/bg-quote.svg")' },
+          backgroundPosition: {
+            xs1: 'bottom -24px right 6px',
+            sm: 'bottom 61px right 24px',
+            md: 'bottom 61px right 112px',
+          },
+          backgroundImage: { xs1: 'url("/images/reviews/bg-quote.svg")' },
         }}
       >
-        <Box sx={{ maxWidth: '600px' }}>
+        <Box sx={{ maxWidth: { xs: '450px', sm: '600px' } }}>
           <Typography className="visually-hidden" component="h2">
             {review.title}
           </Typography>

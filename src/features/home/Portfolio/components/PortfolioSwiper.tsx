@@ -1,18 +1,18 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { styled, SxProps, Theme } from '@mui/material';
+import { SwiperSlide } from 'swiper/react';
+import { SxProps, Theme } from '@mui/material';
 import { IoIosArrowUp, IoIosArrowDown } from 'react-icons/io';
 import { SwiperNavBtn } from '@/common/components/SwiperNavBtn';
 import { useVariantSwiper } from '@/common/hooks';
 import { IHomeDictionary } from '@/common/interfaces/data/locale';
 import { PortfolioLink } from './PortfolioLink';
 import { usePortfolioList } from '../hooks';
+import { StyledSwiper } from '@/common/components/styled';
 
 interface Props {
   sx?: SxProps<Theme>;
   dictionary: IHomeDictionary['portfolio']['projectList'];
 }
 
-const StyledSwiper = styled(Swiper)``;
 export const PortfolioSwiper = ({ sx, dictionary }: Props) => {
   const { sx: style, swiperOptions } = useVariantSwiper('portfolio');
   const portfolioList = usePortfolioList(dictionary);

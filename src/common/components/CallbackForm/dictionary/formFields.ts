@@ -3,7 +3,7 @@ import { TFormFieldDictionary } from '../interfaces';
 
 const ua: TFormFieldDictionary = {
   name: {
-    label: "Ім'я*",
+    label: "Ім'я",
   },
   phone: {
     label: 'Телефон',
@@ -18,7 +18,7 @@ const ua: TFormFieldDictionary = {
 
 const en: TFormFieldDictionary = {
   name: {
-    label: 'Name*',
+    label: 'Name',
   },
   phone: {
     label: 'Phone',

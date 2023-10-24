@@ -9,6 +9,7 @@ import { Advantages } from './Advantages';
 import { Portfolio } from './Portfolio';
 import { Reviews } from './Reviews';
 import { AboutUs } from './AboutUs';
+import { OrderButton } from '@/common/components';
 
 interface Props {
   dictionary: IHomeDictionary;
@@ -24,6 +25,7 @@ export const HomeFeature = ({ dictionary }: Props) => (
       <Reviews dictionary={dictionary.reviews} />
       <AboutUs dictionary={dictionary.aboutUs} />
       <Contacts />
+      <OrderButton variant={'fixed'} />
     </Stack>
   </ThemeProvider>
 );

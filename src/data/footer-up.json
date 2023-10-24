@@ -1,0 +1,17 @@
+{
+  "data": {
+    "linkOne": {
+      "href": "/#"
+    },
+    "linkTwo": {
+      "href": "/#"
+    },
+    "linkThree": {
+      "href": "/#"
+    },
+    "linkFour": {
+      "href": "/#"
+    }
+  },
+  "list": ["linkOne", "linkTwo", "linkThree", "linkFour"]
+}

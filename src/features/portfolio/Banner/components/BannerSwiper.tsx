@@ -1,8 +1,7 @@
-import Image from 'next/image';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { styled } from '@mui/material';
+import { SwiperSlide } from 'swiper/react';
 import { IBannerImg } from '../interface';
 import { useVariantSwiper } from '@/common/hooks';
+import { StyledImage, StyledSwiper } from '@/common/components/styled';
 
 interface Props {
   bannerImg: IBannerImg[];
@@ -11,11 +10,9 @@ interface Props {
   isDesktop?: boolean;
 }
 
-const StyledSwiper = styled(Swiper)``;
-const StyledImg = styled(Image)``;
-
 export const BannerSwiper = ({ isMobile, isRotate, bannerImg, isDesktop }: Props) => {
   const { swiperOptions } = useVariantSwiper('portfolioBanner');
+
   return (
     <StyledSwiper
       {...swiperOptions}
@@ -24,11 +21,11 @@ export const BannerSwiper = ({ isMobile, isRotate, bannerImg, isDesktop }: Props
     >
       {bannerImg.map(it => (
         <SwiperSlide key={it.id}>
-          <StyledImg
+          <StyledImage
             src={it.src}
             alt="portfolio photo"
-            width={isMobile && !isDesktop ? '204' : '352'}
-            height={isMobile && !isDesktop ? '196' : '340'}
+            width={isMobile && !isDesktop ? '258' : '352'}
+            height={isMobile && !isDesktop ? '246' : '340'}
             sx={{
               transform: isRotate ? 'rotate(180deg)' : 'rotate(0deg)',
             }}

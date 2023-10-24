@@ -1,12 +1,12 @@
 import { IconButton } from '@mui/material';
 import { Close } from '@/common/icons';
-import { SxPropsInterface } from '@/common/interfaces';
+import { ISxProps } from '@/common/interfaces';
 
 interface Props {
   onClick(event: React.KeyboardEvent | React.MouseEvent): void;
   size?: number;
   color?: string;
-  sx?: SxPropsInterface;
+  sx?: ISxProps;
 }
 
 export const ButtonClose = ({ onClick, sx, size }: Props) => (

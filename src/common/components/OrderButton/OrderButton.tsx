@@ -4,24 +4,32 @@ import { IPortfolioDictionary } from '@/common/interfaces/data/locale';
 import { useApollo, usePopup } from '../Popup/hooks';
 import { CallbackForm } from '../CallbackForm';
 import { useForm } from '../CallbackForm/hooks';
+import { Phone } from '@/common/icons';
+import { useBtnVariant } from './hooks';
+import { TVariant } from './interfaces';
 
 interface Props {
-  dictionary: IPortfolioDictionary['banner'];
+  dictionary?: IPortfolioDictionary['banner'];
+  variant: TVariant;
 }
 
-export const OrderButton = ({ dictionary }: Props) => {
+export const OrderButton = ({ dictionary, variant }: Props) => {
   const { handleClose, handleOpen, isOpen } = usePopup();
   const { onSubmit } = useApollo(handleClose);
   const { dictionary: translate } = useForm(onSubmit);
+
+  const btnVariant = useBtnVariant(variant);
   return (
     <>
       <Button
-        variant="contained"
+        variant={variant === 'regular' ? 'contained' : 'text'}
         color="secondary"
         onClick={handleOpen}
-        sx={{ width: { xs: '100%', sm: '204px' }, mt: { xs: '56px', sm: 0 }, height: '40px' }}
+        sx={{
+          ...btnVariant,
+        }}
       >
-        {dictionary.orderServiceBtn}
+        {dictionary?.orderServiceBtn ?? <Phone />}
       </Button>
       <Popup title={translate.title} open={isOpen} onClose={handleClose}>
         <CallbackForm onSubmit={onSubmit} />

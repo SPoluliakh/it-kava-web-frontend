@@ -1,1 +1,1 @@
-export type TSwiperOptionsVariant = 'portfolio' | 'portfolioBanner';
+export type TSwiperOptionsVariant = 'portfolio' | 'portfolioBanner' | 'simple';

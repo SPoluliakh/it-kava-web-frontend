@@ -12,7 +12,7 @@ export const Portfolio = ({ dictionary }: Props) => {
   const { isSmUp } = useMedia();
   const portfolioMenu = usePortfolioMenu(dictionary);
   const { value, handleChange } = useTabsChange();
-  const { isShowBtn, handleLoadMore, portfolio } = usePortfolio();
+  const { isShowBtn, handleLoadMore, portfolio } = usePortfolio(value);
   return (
     <Box
       sx={{
@@ -45,7 +45,7 @@ export const Portfolio = ({ dictionary }: Props) => {
             sx={{
               mt: '24px',
               py: '6px',
-              width: { xs: '100%', sm: '155px' },
+              width: { xs: '100%', xs1: '155px' },
             }}
           >
             {dictionary.showMoreBtn}

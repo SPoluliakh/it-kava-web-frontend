@@ -2,15 +2,15 @@ import Image from 'next/image';
 import { Box, Container } from '@mui/material';
 import { IHomeDictionary } from '@/common/interfaces/data/locale';
 import aboutUsImg from 'public/images/aboutUs/img-1440@2x.png';
-import { useMedia } from '@/common/hooks';
 import { Text } from './components';
+import { useSize } from './hooks';
 
 interface Props {
   dictionary: IHomeDictionary['aboutUs'];
 }
 
 export const AboutUs = ({ dictionary }: Props) => {
-  const { isSmUp } = useMedia();
+  const { width, height } = useSize();
 
   return (
     <Box
@@ -29,12 +29,7 @@ export const AboutUs = ({ dictionary }: Props) => {
       >
         <Text dictionary={dictionary} />
 
-        <Image
-          src={aboutUsImg}
-          alt="employees"
-          width={!isSmUp ? '348' : '648'}
-          height={!isSmUp ? '348' : '648'}
-        />
+        <Image src={aboutUsImg} alt="employees" width={width} height={height} />
       </Container>
     </Box>
   );

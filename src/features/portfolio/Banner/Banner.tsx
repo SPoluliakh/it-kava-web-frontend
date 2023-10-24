@@ -1,6 +1,6 @@
 import { Box, Container } from '@mui/material';
-import { BannerText } from '@/common/components';
-import { DesktopSwiper, MobileSwiper } from './components';
+import { BannerText, OrderButton } from '@/common/components';
+import { DesktopSwiper } from './components';
 import { useMedia } from '@/common/hooks';
 import { IPortfolioDictionary } from '@/common/interfaces/data/locale';
 
@@ -25,11 +25,12 @@ export const Banner = ({ dictionary }: Props) => {
           alignItems: 'center',
           justifyContent: 'space-between',
           overflow: 'hidden',
+          textAlign: { xs: 'left', xs1: 'center', sm: 'left' },
         }}
       >
         <BannerText portfolio={!isSmUp} dictionary={dictionary} />
-        {!isSmUp && <MobileSwiper dictionary={dictionary} />}
         {isSmUp && <DesktopSwiper />}
+        {!isSmUp && <OrderButton dictionary={dictionary} variant={'regular'} />}
       </Container>
     </Box>
   );

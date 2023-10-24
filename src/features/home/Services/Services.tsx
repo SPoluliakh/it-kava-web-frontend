@@ -11,13 +11,13 @@ export const Services = ({ dictionary }: Props) => (
     <Container
       sx={{
         display: 'flex',
-        flexDirection: { xs: 'column', sm: 'row' },
+        flexDirection: { xs: 'column', xs1: 'row', sm: 'column', md: 'row' },
         justifyContent: 'space-between',
-        alignItems: 'center',
+        alignItems: { xs: 'center', sm: 'flex-start', md: 'center' },
         gap: 2,
       }}
     >
-      <Box sx={{ maxWidth: { sm: '400px', md: '480px', lg: '574px' } }}>
+      <Box sx={{ maxWidth: { sm: '348px', md: '480px', lg: '574px' } }}>
         <Typography variant="h2" component="h2" color="primary.c500" sx={{ xs: 2, mb: 1 }}>
           {dictionary.title}
         </Typography>

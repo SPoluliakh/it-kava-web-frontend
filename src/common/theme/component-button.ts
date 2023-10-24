@@ -24,6 +24,15 @@ export const setComponentButton = (theme: Theme) => {
           ...(ownerState.size === 'medium' && {
             padding: '2px 16px',
             fontSize: '14px',
+            [theme.breakpoints.up('xs')]: {
+              height: '48px',
+            },
+            [theme.breakpoints.up('sm')]: {
+              height: '40px',
+            },
+            [theme.breakpoints.down('sm')]: {
+              width: '100%',
+            },
           }),
 
           ['& .MuiButton-endIcon']: { marginRight: 0 },

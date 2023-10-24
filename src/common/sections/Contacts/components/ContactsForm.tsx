@@ -18,14 +18,14 @@ export const ContactsForm = ({ sx }: Props) => {
       component="form"
       onSubmit={handleSubmit}
       sx={{
-        justifyContent: { sm: ' center' },
+        justifyContent: { xs1: ' center' },
         width: { sm: '644px' },
         ...sx,
       }}
     >
       <Stack
         sx={{
-          display: { sm: 'grid' },
+          display: { xs1: 'grid' },
           gridTemplateColumns: { sm: '1fr 1fr' },
           gap: { xs: 1 },
           columnGap: { sm: 3 },
@@ -50,7 +50,6 @@ export const ContactsForm = ({ sx }: Props) => {
 
         <TextField
           name="comment"
-          className="required"
           label={dictionary.field.comment.label}
           value={values.comment}
           onChange={handleChange}
@@ -69,9 +68,9 @@ export const ContactsForm = ({ sx }: Props) => {
         variant="contained"
         disabled={!isValid}
         sx={{
-          height: '40px',
-          alignSelf: { sm: 'flex-end' },
-          mr: { sm: '76px' },
+          alignSelf: { xs1: 'flex-end' },
+          mr: { xs1: '76px', md: 0 },
+          width: { xs: '100%', xs1: '166px' },
         }}
       >
         {dictionary.btn}

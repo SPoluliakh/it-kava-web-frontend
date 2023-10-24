@@ -4,10 +4,17 @@
       "aboutUs": "Про нас",
       "services": "Послуги",
       "portfolio": "Портфоліо",
-      "projects": "Проекти",
       "contacts": "Контакти"
     },
     "orderServiceBtn": "Замовити послугу"
   },
-  "footer": {}
+  "footer": {
+    "up": { "linkOne": "Один", "linkTwo": "Два", "linkThree": "Три", "linkFour": "Чотири" },
+    "down": {
+      "PrivacyPolicy": "Політика конфіденційності",
+      "TermsOfService": "Умови обслуговування",
+      "CookiesSettings": "Налаштування файлів cookie"
+    },
+    "common": "2023 Всі права захищено."
+  }
 }

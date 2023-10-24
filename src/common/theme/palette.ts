@@ -12,7 +12,7 @@ export const palette: PaletteOptions = {
     c300: '#738EFF',
     c200: '#9FAFFE',
     c100: '#C7CEFE',
-    c50: '#E9ECFF',
+    c50: '#E3EFFF',
   },
   secondary: {
     main: '#111111',

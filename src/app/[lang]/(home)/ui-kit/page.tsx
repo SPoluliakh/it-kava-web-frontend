@@ -5,7 +5,7 @@ import { theme } from '@/common/theme';
 import { IconButton } from '@/common/components';
 import { ServiceItem } from '@/features/home/Services/components/ServiceItem';
 
-export default function AboutPage() {
+export default function UiKitPage() {
   return (
     <ThemeProvider theme={theme}>
       <Box>

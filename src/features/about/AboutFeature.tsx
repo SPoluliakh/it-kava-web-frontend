@@ -6,9 +6,8 @@ import { FeatureOne } from './FeatureOne';
 import { Services } from './Services';
 import { OurVision } from './OurVision';
 import { Achievements } from './Achievements';
-import { Trust } from './Trust';
-import { Contacts } from '@/common/sections/Contacts';
 import { TextBanner } from '@/common/sections/TextBanner';
+import { Trust, Contacts } from '@/common/sections';
 
 interface Props {
   dictionary: IAboutDictionary;
@@ -22,7 +21,7 @@ export const AboutFeature = ({ dictionary }: Props) => (
       <Services dictionary={dictionary.services} />
       <OurVision dictionary={dictionary.ourVision} />
       <Achievements dictionary={dictionary.achievements} />
-      <Trust dictionary={dictionary.trust} />
+      <Trust />
       <Contacts />
     </Stack>
   </ThemeProvider>

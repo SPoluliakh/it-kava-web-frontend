@@ -30,6 +30,7 @@ export const MobilePortfolioTabsItem = ({
     sx={{
       borderRadius: '4px',
       width: '100%',
+      maxWidth: '342px',
       backgroundColor: 'primary.c500',
       color: 'secondary.c50',
       mb: '32px',

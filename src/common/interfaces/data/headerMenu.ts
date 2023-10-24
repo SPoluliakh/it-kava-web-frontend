@@ -1,4 +1,4 @@
-export type TMenuItemName = 'aboutUs' | 'services' | 'portfolio' | 'projects' | 'contacts';
+export type TMenuItemName = 'aboutUs' | 'services' | 'portfolio' | 'contacts';
 
 export interface IHeaderMenuItem {
   href: string;

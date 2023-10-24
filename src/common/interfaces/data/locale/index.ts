@@ -3,4 +3,5 @@ export * from './about';
 export * from './home';
 export * from './notFound';
 export * from './portfolio';
+export * from './portfolioItem';
 export * from './privacyPolicy';

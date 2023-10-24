@@ -8,7 +8,7 @@ interface Props {
 }
 
 export const BannerText = ({ dictionary, portfolio }: Props) => (
-  <Box sx={{ maxWidth: '450px' }}>
+  <Box sx={{ maxWidth: { xs: '348px', xs1: '472px', sm: '410px', md: '450px' } }}>
     <Typography variant="h1" component="h1" color="secondary.c200" sx={{ mb: 1 }}>
       {dictionary.title}
     </Typography>
@@ -19,10 +19,10 @@ export const BannerText = ({ dictionary, portfolio }: Props) => (
       variant="p3"
       component="p"
       color="secondary.c200"
-      sx={{ mb: { xs: portfolio ? 1 : 7, sm: 3 } }}
+      sx={{ mb: { xs: portfolio ? 1 : 7, xs1: 3 } }}
     >
       {dictionary.text}
     </Typography>
-    {!portfolio && <OrderButton dictionary={dictionary} />}
+    {!portfolio && <OrderButton dictionary={dictionary} variant={'regular'} />}
   </Box>
 );

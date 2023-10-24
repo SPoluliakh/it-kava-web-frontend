@@ -2,7 +2,7 @@ interface Props {
   size?: number;
 }
 
-export const Close = ({ size = 20 }: Props) => (
+export const Close = ({ size = 24 }: Props) => (
   <svg
     width={size}
     height={size}

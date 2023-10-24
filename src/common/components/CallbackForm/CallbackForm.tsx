@@ -1,9 +1,10 @@
-import { Box, Button, Stack } from '@mui/material';
+import { Button, Stack } from '@mui/material';
 import { useForm } from './hooks';
 import { SubmitInterface } from '@/common/components/Popup/interfaces';
 import { TextField } from '../TextField';
 import { CheckBox } from '../CheckBox';
 import { PrivacyPolicy } from '../PrivacyPolicy';
+import { useCheckbox } from '../CheckBox/hooks';
 
 interface Props {
   onSubmit: SubmitInterface;
@@ -16,6 +17,8 @@ export const CallbackForm = ({ onSubmit }: Props) => {
     dictionary,
   } = useForm(onSubmit);
 
+  const { checked, handleChange: handleAgreeChange } = useCheckbox();
+
   return (
     <Stack
       component="form"
@@ -23,6 +26,8 @@ export const CallbackForm = ({ onSubmit }: Props) => {
       sx={{
         justifyContent: { sm: ' center' },
         width: { sm: '100%' },
+        height: '100%',
+        flexGrow: 1,
       }}
     >
       {fieldList.map(it => (
@@ -37,23 +42,21 @@ export const CallbackForm = ({ onSubmit }: Props) => {
           touched={touched[it.name]}
         />
       ))}
-      <Box>
-        <CheckBox>
-          <PrivacyPolicy text={dictionary.policy} />
-        </CheckBox>
-        <Button
-          variant="contained"
-          type="submit"
-          disabled={!isValid}
-          sx={{
-            width: '100%',
-            height: '40px',
-            mt: '48px',
-          }}
-        >
-          {dictionary.btn}
-        </Button>
-      </Box>
+      <CheckBox checked={checked} handleChange={handleAgreeChange}>
+        <PrivacyPolicy text={dictionary.policy} />
+      </CheckBox>
+      <Button
+        variant="contained"
+        type="submit"
+        disabled={!isValid || !checked}
+        sx={{
+          width: '100%',
+          height: '40px',
+          mt: { xs: 'auto', sm: '48px' },
+        }}
+      >
+        {dictionary.btn}
+      </Button>
     </Stack>
   );
 };

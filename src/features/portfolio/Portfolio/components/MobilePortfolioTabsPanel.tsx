@@ -15,7 +15,7 @@ export const MobilePortfolioTabsPanel = ({ portfolioMenu, portfolio }: Props) =>
   const { portfolioVariant, selectedItem, handleMenuItemClick } =
     usePortfolioVariants(portfolioMenu);
   const currentLocal = useLang();
-  const { isSmUp } = useMedia();
+  const { isXs1Up } = useMedia();
 
   return (
     <>
@@ -28,7 +28,7 @@ export const MobilePortfolioTabsPanel = ({ portfolioMenu, portfolio }: Props) =>
         handleExpandedChange={handleExpandedChange}
       />
 
-      <PortfolioInfo portfolio={portfolio} currentLocal={currentLocal} isSmUp={isSmUp} />
+      <PortfolioInfo portfolio={portfolio} currentLocal={currentLocal} isXs1Up={isXs1Up} />
     </>
   );
 };

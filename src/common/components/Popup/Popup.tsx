@@ -27,16 +27,16 @@ export const Popup = ({ children, title, open, onClose }: Props) => (
   >
     <ButtonClose
       onClick={onClose}
-      size={24}
+      size={32}
       sx={{
         position: 'absolute',
-        right: 4,
-        top: 4,
+        right: 16,
+        top: 24,
         color: 'primary.c500',
       }}
     />
     <DialogTitle
-      variant={'h1'}
+      variant={'h2'}
       component={'h1'}
       color={'primary.c500'}
       sx={{

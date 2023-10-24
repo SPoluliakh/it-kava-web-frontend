@@ -21,7 +21,7 @@ const initialValues: TFormValues = {
 
 const fieldList: IFieldListItem[] = [
   { name: 'fullName', order: 1, required: true },
-  { name: 'companyName', order: 2, required: true },
+  { name: 'companyName', order: 2 },
   { name: 'phone', order: 3 },
   { name: 'email', order: 4, required: true },
 ];
@@ -38,21 +38,13 @@ const validationSchema = (dictionary: TValidateDictionary) =>
       .min(3, dictionary.fullName.min)
       .required(dictionary.fullName.required)
       .trim(),
-    companyName: yup
-      .string()
-      .min(3, dictionary.companyName.min)
-      .required(dictionary.companyName.required)
-      .trim(),
+    companyName: yup.string().min(3, dictionary.companyName.min).trim(),
     email: yup
       .string()
       .required(dictionary.email.required)
       .trim()
       .matches(emailRegex, dictionary.email.matches),
-    comment: yup
-      .string()
-      .min(3, dictionary.comment.min)
-      .required(dictionary.comment.required)
-      .trim(),
+    comment: yup.string().min(3, dictionary.comment.min).trim(),
   });
 
 export const useContactsForm = () => {

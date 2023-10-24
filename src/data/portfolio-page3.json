@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "image": "/images/portfolioFeature/07.jpg",
+    "logo": "ЛОГОТИП",
+    "title": "Назва комп.",
+    "text": {
+      "ua": "Назва комп.Назва комп.Назва комп.Назва",
+      "en": "Company name.Company name.Company name."
+    }
+  },
+  {
+    "id": 2,
+    "image": "/images/portfolioFeature/07.jpg",
+    "logo": "ЛОГОТИП",
+    "title": "Назва комп.",
+    "text": {
+      "ua": "Назва комп.Назва комп.Назва комп.Назва",
+      "en": "Company name.Company name.Company name."
+    }
+  },
+  {
+    "id": 3,
+    "image": "/images/portfolioFeature/08.jpg",
+    "logo": "ЛОГОТИП",
+    "title": "Назва комп.",
+    "text": {
+      "ua": "Назва комп.Назва комп.Назва комп.Назва",
+      "en": "Company name.Company name.Company name."
+    }
+  },
+  {
+    "id": 4,
+    "image": "/images/portfolioFeature/08.jpg",
+    "logo": "ЛОГОТИП",
+    "title": "Назва комп.",
+    "text": {
+      "ua": "Назва комп.Назва комп.Назва комп.Назва",
+      "en": "Company name.Company name.Company name."
+    }
+  },
+  {
+    "id": 5,
+    "image": "/images/portfolioFeature/05.jpg",
+    "logo": "ЛОГОТИП",
+    "title": "Назва комп.",
+    "text": {
+      "ua": "Назва комп.Назва комп.Назва комп.Назва",
+      "en": "Company name.Company name.Company name."
+    }
+  },
+  {
+    "id": 6,
+    "image": "/images/portfolioFeature/06.jpg",
+    "logo": "ЛОГОТИП",
+    "title": "Назва комп.",
+    "text": {
+      "ua": "Назва комп.Назва комп.Назва комп.Назва",
+      "en": "Company name.Company name.Company name."
+    }
+  },
+  {
+    "id": 7,
+    "image": "/images/portfolioFeature/01.jpg",
+    "logo": "ЛОГОТИП",
+    "title": "Назва комп.",
+    "text": {
+      "ua": "Назва комп.Назва комп.Назва комп.Назва",
+      "en": "Company name.Company name.Company name."
+    }
+  },
+  {
+    "id": 8,
+    "image": "/images/portfolioFeature/02.jpg",
+    "logo": "ЛОГОТИП",
+    "title": "Назва комп.",
+    "text": {
+      "ua": "Назва комп.Назва комп.Назва комп.Назва",
+      "en": "Company name.Company name.Company name."
+    }
+  },
+  {
+    "id": 9,
+    "image": "/images/portfolioFeature/01.jpg",
+    "logo": "ЛОГОТИП",
+    "title": "Назва комп.",
+    "text": {
+      "ua": "Назва комп.Назва комп.Назва комп.Назва",
+      "en": "Company name.Company name.Company name."
+    }
+  },
+  {
+    "id": 10,
+    "image": "/images/portfolioFeature/02.jpg",
+    "logo": "ЛОГОТИП",
+    "title": "Назва комп.",
+    "text": {
+      "ua": "Назва комп.Назва комп.Назва комп.Назва",
+      "en": "Company name.Company name.Company name."
+    }
+  },
+  {
+    "id": 11,
+    "image": "/images/portfolioFeature/03.jpg",
+    "logo": "ЛОГОТИП",
+    "title": "Назва комп.",
+    "text": {
+      "ua": "Назва комп.Назва комп.Назва комп.Назва",
+      "en": "Company name.Company name.Company name."
+    }
+  },
+  {
+    "id": 12,
+    "image": "/images/portfolioFeature/04.jpg",
+    "logo": "ЛОГОТИП",
+    "title": "Назва комп.",
+    "text": {
+      "ua": "Назва комп.Назва комп.Назва комп.Назва",
+      "en": "Company name.Company name.Company name."
+    }
+  }
+]

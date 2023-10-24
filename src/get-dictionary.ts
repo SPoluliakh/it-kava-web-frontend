@@ -8,6 +8,7 @@ import {
   IPortfolioDictionary,
   IPrivacyPolicyDictionary,
 } from '@/common/interfaces/data/locale';
+import { portfolioItem } from '@/common/getDictionary';
 
 const common: Record<TLocale, () => Promise<ICommonDictionary>> = {
   en: () => import('@/data/locale/_common/en.json').then(module => module.default),
@@ -41,4 +42,5 @@ export const getDictionary = {
   notFound: async (locale: TLocale) => notFound[locale](),
   portfolio: async (locale: TLocale) => portfolio[locale](),
   privacyPolicy: async (locale: TLocale) => privacyPolicy[locale](),
+  portfolioItem,
 };

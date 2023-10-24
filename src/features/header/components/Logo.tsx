@@ -1,5 +1,5 @@
 import { Typography } from '@mui/material';
-import { StyledLink } from '@/common/components';
+import { StyledLink } from '@/common/components/styled';
 
 export const Logo = () => (
   <StyledLink href="/" sx={{ mr: { sm: 'auto' }, py: { xs: 1, sm: 2 } }}>

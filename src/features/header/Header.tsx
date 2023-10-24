@@ -1,6 +1,6 @@
 import { Box } from '@mui/material';
 import { useMedia } from '@/common/hooks';
-import { DeskMenu, LanguageBtn, Logo, MenuBtn, ServiceBtn, HeaderWrapper } from './components';
+import { DeskMenu, LanguageBtn, Logo, MenuBtn, HeaderWrapper } from './components';
 import { ICommonDictionary } from '@/common/interfaces/data/locale';
 
 interface Props {
@@ -8,16 +8,15 @@ interface Props {
 }
 
 export const Header = ({ dictionary }: Props) => {
-  const { isSmUp } = useMedia();
+  const { isXs1Up } = useMedia();
 
   return (
     <HeaderWrapper>
-      {isSmUp ? (
+      {isXs1Up ? (
         <>
           <Logo />
           <DeskMenu dictionary={dictionary.menu} />
           <LanguageBtn />
-          <ServiceBtn orderServiceBtn={dictionary.orderServiceBtn} variant="text" />
         </>
       ) : (
         <>
@@ -36,7 +35,6 @@ export const Header = ({ dictionary }: Props) => {
             }}
           >
             <LanguageBtn />
-            <ServiceBtn orderServiceBtn={dictionary.orderServiceBtn} variant="icon" />
           </Box>
         </>
       )}

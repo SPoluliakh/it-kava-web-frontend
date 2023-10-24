@@ -20,15 +20,15 @@ const initialValues: TFormValues = {
 };
 
 const fieldList: IFieldListItem[] = [
-  { name: 'name', required: true },
-  { name: 'email', required: true },
+  { name: 'name' },
   { name: 'phone' },
+  { name: 'email', required: true },
   { name: 'message' },
 ];
 
 const validationSchema = (dictionary: TValidateDictionary) =>
   yup.object().shape<Partial<Record<TFieldNames, yup.AnySchema>>>({
-    name: yup.string().min(3, dictionary.name.min).required(dictionary.name.required).trim(),
+    name: yup.string().min(3, dictionary.name.min).trim(),
     phone: yup.string().trim(),
     email: yup
       .string()

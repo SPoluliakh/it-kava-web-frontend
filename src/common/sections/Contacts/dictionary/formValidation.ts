@@ -8,7 +8,6 @@ const ua: TValidateDictionary = {
   },
   companyName: {
     min: 'не менше 3 символів',
-    required: "Обов'язкове поле",
   },
   email: {
     required: "Обов'язкове поле",
@@ -16,7 +15,6 @@ const ua: TValidateDictionary = {
   },
   comment: {
     min: 'не менше 3 символів',
-    required: "Обов'язкове поле",
   },
 };
 
@@ -27,7 +25,6 @@ const en: TValidateDictionary = {
   },
   companyName: {
     min: "Don't less 3 symbol",
-    required: 'Required field',
   },
   email: {
     required: 'Required field',
@@ -35,7 +32,6 @@ const en: TValidateDictionary = {
   },
   comment: {
     min: "Don't less 3 symbol",
-    required: 'Required field',
   },
 };
 

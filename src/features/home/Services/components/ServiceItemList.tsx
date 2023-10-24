@@ -15,7 +15,7 @@ export const ServiceItemList = ({ dictionary }: Props) => {
       sx={{
         flexDirection: 'row',
         flexWrap: 'wrap',
-        width: { sm: '648px' },
+        width: { xs1: '348px', sm: '100%' },
       }}
     >
       {serviceItemList.map(it => (

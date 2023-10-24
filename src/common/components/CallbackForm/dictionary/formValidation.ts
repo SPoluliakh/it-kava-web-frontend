@@ -4,7 +4,6 @@ import { TValidateDictionary } from '../interfaces';
 const ua: TValidateDictionary = {
   name: {
     min: 'Не менше 3 символів',
-    required: "Обов'язкове поле",
   },
   email: {
     required: "Обов'язкове поле",
